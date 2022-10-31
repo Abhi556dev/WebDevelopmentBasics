@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS</title>
+</head>
+<!--  linking a css file(extenal css:)  -->
+<!-- or writing directily css using style tag in head(internal css:) have same prescedence. But later
+     one will apply: -->
+<style>
+    p{
+        color:purple;
+         background-color: aquamarine !important;
+         /* writing important will force background-color to be aquamarine. */
+        
+        
+    }
+    </style>
+    <link rel="stylesheet" href="tut13.css">
+    <!-- Here tut13.css will be applied as its written later: -->
+<body>
+    <h3>Html Css tutorial</h3>
+    <!--  <p style="color:red; background-color: aqua;">Here in this tutorial  we will learn about html css< -->
+    <p >Here in this tutorial  we will learn everything  about html css</p>
+    <!-- order of presncendece: -->
+    <!-- !important> inline> internal=external: -->
+</body>
+</html>

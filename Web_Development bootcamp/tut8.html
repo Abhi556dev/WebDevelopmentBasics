@@ -1,0 +1,70 @@
+<!--  Forms and Input Tags: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags:</title>
+</head>
+<body>
+    <h2>Basic Form tutorial:</h2>
+    <form action="backend.php">
+        <div>
+        NAME: <input type="text" name="MyName">
+        <!-- name attribute is for backend: the name can be used to call the value in the backend: -->
+    </div>
+    <br>
+    <div>
+        OCCUPATION: <input type="text " name="MyOccupation">    
+    </div>
+    <br>
+    <div>
+        EMAIL: <input type="email" name="MyEmail">
+    </div>
+    <br>
+    <div>
+        DOB: <input type="date" name="MYDOB">
+    </div>
+    <br> 
+    <div>
+        Bonous: <input type="number" name="MyBonus">
+    </div>
+    
+    <br>
+    <div>
+        Gender: Male<input type="radio" name="MyGender">Female <input type="radio" name="MyGender">
+        Other <input type="radio" name="MyGender">
+        <!-- The name should be same if you want to grasp one of these only in the backened: -->
+    </div>
+    <br>
+    <div>
+        Write About Yourself: <br></Yourself:br> <textarea name="About" cols="40" rows="5"></textarea>
+    </div>
+    <div>
+        <!-- uinng a label directiy let the enter input by clicking on name itself: -->
+        <label for="eligibility">Are you eligible:</label>
+        <input type="checkbox" id="eligibility">
+    </div>
+    <div>
+        <!-- can write checked ,  then it will be checked by default in form: -->
+         Are You Above 18:<input type="checkbox" name="Myeligibility" checked>
+    </div>
+    <br>
+    <div>
+     Select Your Car:<select name="Mycar">
+            <option value="">Indica</option>
+            <option value="">Scorpio</option>
+            <option selected>  xuv700</option>
+        </select> 
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="SUBMIT NOW">
+        <input type="reset" value="Reset NOW">
+    </div>
+
+    </form>
+
+</body>
+</html>
